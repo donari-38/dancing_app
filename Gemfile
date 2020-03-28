@@ -6,6 +6,9 @@ ruby '2.6.3'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'carrierwave'
+gem 'devise'
+gem 'devise-i18n'       # devise日本語化のため
+gem 'devise-i18n-views' # devise日本語化のため
 gem 'rails', '~> 5.2.2'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
