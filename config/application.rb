@@ -23,6 +23,12 @@ module DancingApp
         request_specs: false
       g.fixture_replacement :factory_bot, dir: 'spec/factories'
     end
+
+    #日本語化
+    config.i18n.defaults_locale = :ja
+
+    config.time_zone = 'Asia/Tokyo'
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading

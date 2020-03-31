@@ -5,10 +5,12 @@ ruby '2.6.3'
 
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
+gem 'devise-bootstrap-views', '~> 1.0'
 gem 'carrierwave'
 gem 'devise'
-gem 'devise-i18n'       # devise日本語化のため
-gem 'devise-i18n-views' # devise日本語化のため
+#日本語化
+gem 'devise-i18n'       
+gem 'devise-i18n-views' 
 gem 'rails', '~> 5.2.2'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
