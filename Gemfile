@@ -11,7 +11,7 @@ gem 'devise-i18n'       # devise日本語化のため
 gem 'devise-i18n-views' # devise日本語化のため
 gem 'rails', '~> 5.2.2'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
